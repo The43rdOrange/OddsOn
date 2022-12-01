@@ -1,0 +1,3 @@
+USERS(username, password, currentlyLoggedIn)
+GAME(gameID, player1 as USERS(username), player2 as USERS(username), lowerBound, upperBound, round1ID as ROUND(RoundID), round2ID as ROUND(RoundID))
+ROUND(RoundID, player1result, player2result)
